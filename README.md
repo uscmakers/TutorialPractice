@@ -16,7 +16,7 @@ If you have windows, you want to use the "command prompt" application. If you us
 1. Get a github account and accept the invitation from "uscmakers" *important*
 2. Go to https://git-scm.com/download/win and the download will start automatically.
 3. Download sublime with this link: https://www.sublimetext.com/3 (select the windows version)
-	a. If you already have a text editor such as VS Code, BBedit, Notepad++, Atom, etc, feel free to skip this step
+	1. If you already have a text editor such as VS Code, BBedit, Notepad++, Atom, etc, feel free to skip this step
 
 
 ### Mac:
@@ -63,7 +63,7 @@ If you have windows, you want to use the "command prompt" application. If you us
 	1. Look at Shivani's and Jenny's demo, and practice making merge conflicts and resolving them! *optional*
 	
 ## Git Shortcuts
-'''
+
 git pull: pull updates from the upstream branch
 git pull origin master: pull updates specifically from the master head
 git add -A: add the updates 
@@ -75,4 +75,4 @@ git checkout -b branch_name: make a new branch and switch branches
 git checkout branch_name: switch branches
 git branch --list: list the branches that you have on your local machine
 git branch -d branch_name: delete the branch
-'''
+
