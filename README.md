@@ -77,3 +77,4 @@ git checkout -b branch_name: make a new branch and switch branches
 git checkout branch_name: switch branches
 git branch --list: list the branches that you have on your local machine
 git branch -d branch_name: delete the branch
+
