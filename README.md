@@ -15,13 +15,14 @@ touch <file_name>: create an empty file
 
 ##Installation:
 Windows:
-1. Get a github account and accept the invitation from "uscmakers"
+1. Get a github account and accept the invitation from "uscmakers" *important*
 2. Go to https://git-scm.com/download/win and the download will start automatically.
 3. Download sublime with this link: https://www.sublimetext.com/3 (select the windows version)
 	a. If you already have a text editor such as VS Code, BBedit, Notepad++, Atom, etc, feel free to skip this step
 
+
 Mac:
-1. Get a github account and accept the invitation from "uscmakers"
+1. Get a github account and accept the invitation from "uscmakers" *important*
 2. Run: <git --version> on your terminal. If you don't already have git installed, this will prompt you to install git.
 
 ##Guide:
@@ -51,8 +52,17 @@ Mac:
 	a. Navigate back to the github website and refresh. You will be able to see your newly created branch in the dropdown list of branches.
 	b. Now, create a "pull request" by clicking "Compare & pull request". 
 	c. Title the pull request with your name Ex. Jenny's Pull Request. You can leave the comment section blank.
-	d. Press submit- You have made a successful pull request!
-7. Complete the pull 
+7. Assign a Reviewer to your PR
+	a. Look at the partner list that was generated for you. Add your partner as a reviewer on the right tab.
+	b. Submit the pull request! 
+8. Review your partner's PR
+	a. If your partner has submitted a pull request, you need to review it so she/he can merge the branch back into master. Navigate to the PR tab at the top, and find your partner's pull request. 
+	b. Look at the changes, and hit approve. Note: During an actual code review, you can add comments/suggestions
+9. Merge your PR:
+	a. Once your partner approves your PR, you can merge your branch into master. Find your PR on the PR page, and merge it into the master branch.
+	b. You will then be able to see your file on the master branch!
+10. Merge Conflicts:
+	a. Look at Shivani's and Jenny's demo, and practice making merge conflicts and resolving them! *optional*
 
 ##Git Shortcuts
 
