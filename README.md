@@ -64,15 +64,15 @@ If you have windows, you want to use the "command prompt" application. If you us
 	
 ## Git Shortcuts
 
-git pull: pull updates from the upstream branch
-git pull origin master: pull updates specifically from the master head
-git add -A: add the updates 
-git commit -m "write a message": commit the updates
-git push: push the updates from your local repo to your remote repo
-git push --set-upstream origin branch_name: push the updates to the remote repo AND set your upstream branch to master
-git status: check which branch you are on
-git checkout -b branch_name: make a new branch and switch branches
-git checkout branch_name: switch branches
-git branch --list: list the branches that you have on your local machine
-git branch -d branch_name: delete the branch
+- git pull: pull updates from the upstream branch
+- git pull origin master: pull updates specifically from the master head
+- git add -A: add the updates 
+- git commit -m "write a message": commit the updates
+- git push: push the updates from your local repo to your remote repo
+- git push --set-upstream origin branch_name: push the updates to the remote repo AND set your upstream branch to master
+- git status: check which branch you are on
+- git checkout -b branch_name: make a new branch and switch branches
+- git checkout branch_name: switch branches
+- git branch --list: list the branches that you have on your local machine
+- git branch -d branch_name: delete the branch
 
