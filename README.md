@@ -1,6 +1,6 @@
 # TutorialPractice
 
-Crash Course of How to Navigate the Command Line 
+## Crash Course of How to Navigate the Command Line 
 If you have windows, you want to use the "command prompt" application. If you use a Mac, you want to use the "terminal".
 
 - cd ..: go back to the previous directory
