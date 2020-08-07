@@ -22,6 +22,8 @@ If you have windows, you want to use the "command prompt" application. If you us
 ### Mac:
 1. Get a github account and accept the invitation from "uscmakers" *important*
 2. Run: <git --version> on your terminal. If you don't already have git installed, this will prompt you to install git.
+3. Download sublime with this link: https://www.sublimetext.com/3 (select the mac version)
+	1. If you already have a text editor such as VS Code, BBedit, Notepad++, Atom, etc, feel free to skip this step
 
 ## Guide:
 1. Clone this repo:
