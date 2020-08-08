@@ -49,8 +49,8 @@ If you have windows, you want to use the "command prompt" application. If you us
 	4. Copy what the error told you to type, which should be "git push --set-upstream origin <branch_name>". By doing this, you are setting where you will later be merging the branch to.
 6. Create a pull request on github
 	1. Navigate back to the github website and refresh. You will be able to see your newly created branch in the dropdown list of branches.
-	2. Now, create a "pull request" by clicking "Compare & pull request". 
-	3. Title the pull request with your name Ex. Jenny's Pull Request. You can leave the comment section blank.
+	2. Now, navigate to the Pull Request tab and create a "pull request" by clicking "Compare & pull request". 
+	3. Title the pull request with your name Ex. Jenny's Pull Request. You can leave the comment section blank, or you can tag your partner in it.
 7. Assign a Reviewer to your PR
 	1. Look at the partner list that was generated for you. Add your partner as a reviewer on the right tab.
 	2. Submit the pull request! 
