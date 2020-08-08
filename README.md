@@ -30,19 +30,18 @@ If you have windows, you want to use the "command prompt" application. If you us
 	1. Navigate to the folder you want to copy this tutorial into using the crash course guide above (please use the command line!)
 	2. Copy the address of the repo using either ssh or https
 	3. type "git clone <address_you copied in step 1b>"- you should see the repo in your file explorer now!
-2. Create a file
-	1. Go inside the repo using the command line
-	2. Create a text file and name it your full name. Ex. Radhika_Agrawal.txt
-	3. Open the file in your file explorer with Sublime (or editor of your choice)
-	4. Write your name in the file!
-	5. Save and close the file
-3. Pull Updates:
+2. Pull Updates:
 	1. In the command line, type "git pull" to pull all the updates from the upstream branch. Depending on when you do this, you might see other peoples' files load into your directory.
-4. Create a Branch
+3. Create a Branch
 	1. Go back into the command line, and type "ls" or "dir" to confirm you can see the file
 	2. Now, lets orient ourselves and check which branch we are on by typing "git status". You should see that you are on the master branch. By default, you start on the master branch
-	3. Lets create a new branch by typing "git checkout -b <branch_name>" PLEASE title your branch your full name, just like your file. Ex. Radhika_Agrawal
+	3. Lets create a new branch by typing "git checkout -b <branch_name>" PLEASE title your branch your full name. Ex. Radhika_Agrawal
 	4. Type "git status" again. You should see that you are now on your newly created branch.
+4. Create a file
+	1. Create a text file and name it your full name. Ex. Radhika_Agrawal.txt
+	2. Open the file in your file explorer with Sublime (or editor of your choice)
+	3. Write your name in the file!
+	4. Save and close the file
 5. Upload your code to github
 	1. Type "git add -A". "-A" means all files
 	2. Type "git commit -m "type a message here"". -m means that you will attatch a message to associate your commit with. In this case, just type a generic message briefly describing what you will be uploading.
