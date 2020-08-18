@@ -28,13 +28,14 @@ If you have windows, you want to use the "command prompt" application. If you us
 ## Guide:
 1. Clone this repo:
 	1. Navigate to the folder you want to copy this tutorial into using the crash course guide above (please use the command line!)
-	2. Copy the address of the repo. Press the "code" button on the right top of the screen of the online github, and copy the address with either ssh or https
+	2. Copy the address of the repo. Press the "code" button on the right top of the screen of the online github repo, and copy the address with either ssh or https
 	3. type "git clone <address_you copied in step 1b>"- you should see the repo in your file explorer now!
+	4. Navigate inside of the cloned folder by typing "cd TutorialPractice".
 2. Pull Updates:
-	1. In the command line, type "git pull" to pull all the updates from the upstream branch. Depending on when you do this, you might see other peoples' files load into your directory.
+	1. In the command line, type "git pull" to pull all the updates from the upstream branch. Depending on when you do this, you might see other peoples' files load into your directory. This "refreshes" your local repository to reflect what the remote repository looks like.
 3. Create a Branch
-	1. Go back into the command line, and type "ls" or "dir" to confirm you can see the file
-	2. Now, lets orient ourselves and check which branch we are on by typing "git status". You should see that you are on the master branch. By default, you start on the master branch
+	1. Go back into the command line, and type "ls" or "dir". You should be able to see a README.md, and potentially other people's names.
+	2. Now, lets orient ourselves and check which branch we are on by typing "git status". You should see that you are on the master branch. By default, you start on the master branch.
 	3. Lets create a new branch by typing "git checkout -b <branch_name>" PLEASE title your branch your full name. Ex. Radhika_Agrawal
 	4. Type "git status" again. You should see that you are now on your newly created branch.
 4. Create a file
@@ -48,26 +49,29 @@ If you have windows, you want to use the "command prompt" application. If you us
 	3. Type "git push". This should give you an error saying that you have not specified an upstream branch. 
 	4. Copy what the error told you to type, which should be "git push --set-upstream origin <branch_name>". By doing this, you are setting where you will later be merging the branch to.
 6. Create a pull request on github
-	1. Navigate back to the github website and refresh. You will be able to see your newly created branch in the dropdown list of branches.
-	2. Now, navigate to the Pull Request tab and create a "pull request" by clicking "Compare & pull request". 
-	3. Title the pull request with your name Ex. Jenny's Pull Request. You can leave the comment section blank, or you can tag your partner in it.
+	1. Navigate back to the github website and refresh. 
+	2. Navigate to the "pull requests" tab
+	3. You should see a button that says 'Compare and Pull Request'. Click on the button.
+	4. Confirm that the "base" branch is Master, and the branch to be "compared" is your new branch.
+	5. Title the pull request with your name Ex. Jenny's Pull Request. You can leave the comment section blank, or you can tag your partner in it.
 7. Assign a Reviewer to your PR
 	1. Look at the partner list that was generated for you. Add your partner as a reviewer on the right tab.
 	2. Submit the pull request! 
 8. Review your partner's PR
 	1. If your partner has submitted a pull request, you need to review it so she/he can merge the branch back into master. Navigate to the PR tab at the top, and find your partner's pull request. 
-	2. Look at the changes, and hit approve. Note: During an actual code review, you can add comments/suggestions
+	2. Look at the changes, and hit approve. Note: During an actual code review, you can add comments/suggestions, and choose not to approve it if necessary.
 9. Merge your PR:
 	1. Once your partner approves your PR, you can merge your branch into master. Find your PR on the PR page, and merge it into the master branch.
 	2. You will then be able to see your file on the master branch!
 10. Merge Conflicts:
-	1. Look at Shivani's and Jenny's demo, and practice making merge conflicts and resolving them! *optional*
+	1. Look at Shivani's and Jenny's demo (which will also be uploaded to our Youtube channel), and practice making merge conflicts and resolving them! *optional*
 	
 ## Git Shortcuts
 
 - git pull: pull updates from the upstream branch
-- git pull origin master: pull updates specifically from the master head
-- git add -A: add the updates 
+- git pull origin master: pull updates specifically from the master head 
+- git add -A: add ALL the updates that were made in the local repo
+- git add jenny.txt: add ONLY the updates that were made in jenny.txt
 - git commit -m "write a message": commit the updates
 - git push: push the updates from your local repo to your remote repo
 - git push --set-upstream origin branch_name: push the updates to the remote repo AND set your upstream branch to master
@@ -76,4 +80,12 @@ If you have windows, you want to use the "command prompt" application. If you us
 - git checkout branch_name: switch branches
 - git branch --list: list the branches that you have on your local machine
 - git branch -d branch_name: delete the branch
+
+## Advanced Git Shortcuts
+
+- git reset --soft HEAD~1: Undo one git commit (change the ~1 to ~5 if you want to undo the past 5 commits)
+- git stash: Lets pretend that you were working on branch "avl" to work on avl trees. Even though you don't want to commit the code yet, you want to hop over to another branch to work another feature. You can save the work you were doing on the avl trees using stash.
+- git stash list: List all the stashes you've stored
+- git stash apply: You can re-apply the changes you've stashed back to your branch (most recent stash)
+- git stash apply@{2}: Re-apply the second to most recent stash to your branches. (you can change the number to specify which stash you are talking about)
 
