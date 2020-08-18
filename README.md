@@ -28,7 +28,7 @@ If you have windows, you want to use the "command prompt" application. If you us
 ## Guide:
 1. Clone this repo:
 	1. Navigate to the folder you want to copy this tutorial into using the crash course guide above (please use the command line!)
-	2. Copy the address of the repo using either ssh or https
+	2. Copy the address of the repo. Press the "code" button on the right top of the screen of the online github, and copy the address with either ssh or https
 	3. type "git clone <address_you copied in step 1b>"- you should see the repo in your file explorer now!
 2. Pull Updates:
 	1. In the command line, type "git pull" to pull all the updates from the upstream branch. Depending on when you do this, you might see other peoples' files load into your directory.
