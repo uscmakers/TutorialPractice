@@ -1,5 +1,8 @@
 # TutorialPractice
 
+## Need help at any time?
+If you need ANY help, feel free to make a github issue! On the top tab on the github page, you will see a tab called "issues". Please write your issue there and a member of our team will answer your questions asap!
+
 ## Crash Course of How to Navigate the Command Line 
 If you have windows, you want to use the "command prompt" application. If you use a Mac, you want to use the "terminal".
 
