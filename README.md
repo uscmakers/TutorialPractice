@@ -27,19 +27,24 @@ If you have windows, you want to use the "command prompt" application. If you us
 	
 ## Linking Github to the Terminal
 1.  In the terminal, type these following commands. Make sure your email is your USC email, and make sure that your username is the username affiliated with your github.
+```
 	git config --global user.name "Your name here"
 	git config --global user.email "your_email@example.com"
-	git config  user.name "Nanhe Kumar"
-	git config  user.email "info@nanhekumar.com"
+	git config  user.name "Some One"
+	git config  user.email "email@email.com"
+```
 2. Generate and copy your ssh key 
+```
 	ssh-keygen -t rsa -C "your_email@example.com"
 	pbcopy < ~/.ssh/id_rsa.pub
-3. Go to github
-4. Type "ssh -T git@github.com" into your terminal. If you see "Hi username! You've successfully authenticated, but Github does not provide shell access.", you are good to go!
+```
+3. Go to github and sign into your account. Click on your profile picture on the top right of the screen and click on the "settings"
+4. Click on "SSH and GPG keys", and add a new SSH Key. You should be able to control + v to copy the ssh key you generated in step 2. Make sure to title it something recognizable and relevant.
+5. Type "ssh -T git@github.com" into your terminal. If you see "Hi username! You've successfully authenticated, but Github does not provide shell access.", you are good to go!
 
 
 ## Guide:
-0. Complete Installation, Crash Course, and Linking Github to the Terminal in this order
+0. Complete Installation, Crash Course, and Linking Github to the Terminal in this order. (If you have worked with git on your laptop, you may have to do none/some of the steps)
 1. Clone this repo:
 	1. Navigate to the folder you want to copy this tutorial into using the crash course guide above (please use the command line!)
 	2. Copy the address of the repo. Press the "code" button on the right top of the screen of the online github repo, and copy the address with either ssh or https
