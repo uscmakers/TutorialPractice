@@ -24,8 +24,22 @@ If you have windows, you want to use the "command prompt" application. If you us
 2. Run: <git --version> on your terminal. If you don't already have git installed, this will prompt you to install git.
 3. Download sublime with this link: https://www.sublimetext.com/3 (select the mac version)
 	1. If you already have a text editor such as VS Code, BBedit, Notepad++, Atom, etc, feel free to skip this step
+	
+## Linking Github to the Terminal
+1.  In the terminal, type these following commands. Make sure your email is your USC email, and make sure that your username is the username affiliated with your github.
+	git config --global user.name "Your name here"
+	git config --global user.email "your_email@example.com"
+	git config  user.name "Nanhe Kumar"
+	git config  user.email "info@nanhekumar.com"
+2. Generate and copy your ssh key 
+	ssh-keygen -t rsa -C "your_email@example.com"
+	pbcopy < ~/.ssh/id_rsa.pub
+3. Go to github
+4. Type "ssh -T git@github.com" into your terminal. If you see "Hi username! You've successfully authenticated, but Github does not provide shell access.", you are good to go!
+
 
 ## Guide:
+0. Complete Installation, Crash Course, and Linking Github to the Terminal in this order
 1. Clone this repo:
 	1. Navigate to the folder you want to copy this tutorial into using the crash course guide above (please use the command line!)
 	2. Copy the address of the repo. Press the "code" button on the right top of the screen of the online github repo, and copy the address with either ssh or https
