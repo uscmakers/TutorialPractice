@@ -8,7 +8,7 @@ If you have windows, you want to use the "command prompt" application. If you us
 
 - cd ..: go back to the previous directory
 - cd folder1: move inside folder1
-- ls(mac)/dir(windows): list all the files in the current directory
+- ls: list all the files in the current directory
 - mkdir <folder_name>: make a folder with the name "folder_name"
 - rm <file_name>: delete the file "file_name" permanently
 - rm -r <folder_name>: delete the folder "folder_name" and all its contents permanently
@@ -20,8 +20,6 @@ If you have windows, you want to use the "command prompt" application. If you us
 2. Go to https://git-scm.com/download/win and the download will start automatically.
 3. Download sublime with this link: https://www.sublimetext.com/3 (select the windows version)
 	1. If you already have a text editor such as VS Code, BBedit, Notepad++, Atom, etc, feel free to skip this step
-4. Download the linux shell https://ubuntu.com/download/desktop. If you feel comfortable with the windows commands, feel free to skip this step.
-
 
 ### Mac:
 1. Get a github account and accept the invitation from "uscmakers" *important*
@@ -30,7 +28,7 @@ If you have windows, you want to use the "command prompt" application. If you us
 	1. If you already have a text editor such as VS Code, BBedit, Notepad++, Atom, etc, feel free to skip this step
 	
 ## Linking Github to the Terminal
-1.  In the terminal, type these following commands. Make sure your email is your USC email, and make sure that your username is the username affiliated with your github.
+1.  In the command prompt/powershell, type these following commands. Make sure your email is your USC email, and make sure that your username is the username affiliated with your github.
 ```
 	git config --global user.name "Your name here"
 	git config --global user.email "your_email@example.com"
