@@ -17,6 +17,7 @@ If you have windows, you want to use the "command prompt" application. If you us
 2. Go to https://git-scm.com/download/win and the download will start automatically.
 3. Download sublime with this link: https://www.sublimetext.com/3 (select the windows version)
 	1. If you already have a text editor such as VS Code, BBedit, Notepad++, Atom, etc, feel free to skip this step
+4. Download the linux shell https://ubuntu.com/download/desktop. If you feel comfortable with the windows commands, feel free to skip this step.
 
 
 ### Mac:
