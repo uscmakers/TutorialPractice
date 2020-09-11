@@ -1,10 +1,10 @@
 # TutorialPractice
 
 ## Need help at any time?
-If you need ANY help, feel free to make a github issue! On the top tab on the github page, you will see a tab called "issues". Please write your issue there and a member of our team will answer your questions asap!
+If you need ANY help, feel free to make a github issue! On the top tab on the github page, you will see a tab called "issues". Please write your issue there and a member of our team will answer your questions asap! OR you can also post in the #tutorialhelp channel on slack!
 
 ## Crash Course of How to Navigate the Command Line 
-If you have windows, you want to use the "command prompt" application. If you use a Mac, you want to use the "terminal".
+If you have windows, you want to use the "powershell" application. If you use a Mac, you want to use the "terminal".
 
 - cd ..: go back to the previous directory
 - cd folder1: move inside folder1
@@ -74,18 +74,11 @@ If you have windows, you want to use the "command prompt" application. If you us
 	2. Navigate to the "pull requests" tab
 	3. You should see a button that says 'Compare and Pull Request'. Click on the button.
 	4. Confirm that the "base" branch is Master, and the branch to be "compared" is your new branch.
-	5. Title the pull request with your name Ex. Jenny's Pull Request. You can leave the comment section blank, or you can tag your partner in it.
-7. Assign a Reviewer to your PR
-	1. Look at the partner list that was generated for you. Add your partner as a reviewer on the right tab.
-	2. Submit the pull request! 
-8. Review your partner's PR
-	1. If your partner has submitted a pull request, you need to review it so she/he can merge the branch back into master. Navigate to the PR tab at the top, and find your partner's pull request. 
-	2. Look at the changes, and hit approve. Note: During an actual code review, you can add comments/suggestions, and choose not to approve it if necessary.
+	5. Title the pull request with your name Ex. Jenny's Pull Request. You can leave the comment section blank, or you can put some comment in it.
+8. NOTE: You can also tag people in your team to review the pull request in a real life situation!
 9. Merge your PR:
 	1. Once your partner approves your PR, you can merge your branch into master. Find your PR on the PR page, and merge it into the master branch.
 	2. You will then be able to see your file on the master branch!
-10. Merge Conflicts:
-	1. Look at Shivani's and Jenny's demo (which will also be uploaded to our Youtube channel), and practice making merge conflicts and resolving them! *optional*
 	
 ## Git Shortcuts
 
