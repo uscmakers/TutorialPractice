@@ -68,7 +68,7 @@ If you have windows, you want to use the "powershell" application. If you use a 
 	5. Title the pull request with your name Ex. Jenny's Pull Request. You can leave the comment section blank, or you can put some comment in it.
 8. NOTE: You can also add people in your team as reviewers to review the pull request in a real life situation!
 9. Merge your PR:
-	1. Once your partner approves your PR, you can merge your branch into master. Find your PR on the PR page, and merge it into the master branch.
+	1. You can merge your branch into master. Find your PR on the PR page, and merge it into the master branch.
 	2. You will then be able to see your file on the master branch!
 	
 ## Git Shortcuts
