@@ -4,5 +4,5 @@ if name == "Isaac":
     print("Yes")
 
 else:
-    print("You aren't Isaac")
+    print("Hello, person who isn't Isaac")
     
