@@ -57,6 +57,9 @@ If you have windows, you want to use the "powershell" application. If you use a 
 	2. Open the file in your file explorer with Sublime (or editor of your choice)
 	3. Write your name in the file!
 	4. Save and close the file
+	5. Open the errors.txt file
+	6. Change the statement to anything else: Ex. "This is a simple file with no errors right???: -> "Yep! No errors at all."
+	6. Save and close the file
 5. Upload your code to github
 	1. Type "git add -A". "-A" means all files
 	2. Type "git commit -m "type a message here"". -m means that you will attatch a message to associate your commit with. In this case, just type a generic message briefly describing what you will be uploading.
@@ -69,7 +72,11 @@ If you have windows, you want to use the "powershell" application. If you use a 
 	4. Confirm that the "base" branch is Master, and the branch to be "compared" is your new branch.
 	5. Title the pull request with your name Ex. Jenny's Pull Request. You can leave the comment section blank, or you can put some comment in it.
 8. NOTE: You can also add people in your team as reviewers to review the pull request in a real life situation!
-9. Merge your PR:
+9. Fixe the merge conflict
+	1. The change you made to errors.txt doesn't align with the version in master.
+	2. Examine the conflict in the Github website and determine what you want the final errors.txt file to look like
+	3. Resolve and commit the changes all in the Github website.
+10. Merge your PR:
 	1. You can merge your branch into master. Find your PR on the PR page, and merge it into the master branch.
 	2. You will then be able to see your file on the master branch!
 	
