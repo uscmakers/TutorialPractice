@@ -1,1 +1,1 @@
-Will this create a conflict?
+Conflict resolved
