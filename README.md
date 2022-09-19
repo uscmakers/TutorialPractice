@@ -73,9 +73,9 @@ If you have windows, you want to use the "powershell" application. If you use a 
 	5. Title the pull request with your name Ex. Jenny's Pull Request. You can leave the comment section blank, or you can put some comment in it.
 8. NOTE: You can also add people in your team as reviewers to review the pull request in a real life situation!
 9. Fixe the merge conflict
-	1. The change you made to errors.txt doesn't align with the version in master.
-	2. Examine the conflict in the Github website and determine what you want the final errors.txt file to look like
-	3. Resolve and commit the changes all in the Github website.
+	The change you made to errors.txt doesn't align with the version in master.
+	2. Examine the conflict in the Github website and revert the file to match what is in master
+	3. Resolve and commit the changes
 10. Merge your PR:
 	1. You can merge your branch into master. Find your PR on the PR page, and merge it into the master branch.
 	2. You will then be able to see your file on the master branch!
