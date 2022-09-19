@@ -32,6 +32,8 @@ If you have windows, you want to use the "powershell" application. If you use a 
 ```
 	git config --global user.name "Your name here"
 	git config --global user.email "your_email@example.com"
+	
+	//Do the below steps if you are in a git directory already
 	git config  user.name "Some One"
 	git config  user.email "email@email.com"
 ```
