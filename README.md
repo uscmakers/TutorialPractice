@@ -27,16 +27,41 @@ If you have windows, you want to use the "powershell" application. If you use a 
 3. Download sublime with this link: https://www.sublimetext.com/3 (select the mac version)
 	1. If you already have a text editor such as VS Code, BBedit, Notepad++, Atom, etc, feel free to skip this step
 	
-## Linking Github to the Terminal
-1.  In the command prompt/powershell, type these following commands. Make sure your email is your USC email, and make sure that your username is the username affiliated with your github.
+### Setting up Git
+## Linking Github to the Terminal (after installing Git on device)
+1. In the command prompt/powershell, type these following commands. Make sure your email is your USC email, and make sure that your username is the username affiliated with your github.
 ```
 	git config --global user.name "Your name here"
 	git config --global user.email "your_email@example.com"
-	
-	//Do the below steps if you are in a git directory already
-	git config  user.name "Some One"
-	git config  user.email "email@email.com"
 ```
+2. By default, git does not color its output. Pretty printing git messages makes it easy read the output and take proper actions. You can enable colors for interactive use with:
+```
+	git config --global color.ui auto
+```
+3. Recently GitHub has changed to main as the default branch. We need our local git command to respect that:
+```
+	git config --global init.defaultBranch main
+```
+4. Operating systems implement new lines differently. Here you will configure git to automatically normalize the line feed to properly match the platform:
+
+git config --global core.autocrlf input
+5. Since Git 2.0, Git has updated its default push settings. To avoid getting a warning when you push (we will explain what push means soon), apply the following setting:
+```
+	git config --global push.default simple
+```
+## Configuring SSH Keys
+Git uses SSH (Secure Shell protocol) keys to communicate with remote servers (servers in the cloud). You must generate these keys on your device and copy them to you Git profile so that you can establish a secure connection to your remote repos.
+1. Enter the following in to your terminal
+```
+	ssh-keygen -t rsa -b 2048 -C "your_email@example.com"
+```
+2. When prompted for a location to save the key, use whatever the default is by pressing enter
+3. After that, you will be prompted for a passphrase to secure your private key. We reccommend that you don't create a passphrase. Otherwise, you will have to type it in every time you wish to push to your remote repo. Press enter twice to continue wiht no passphrase.
+4. In your Git account (on the website) navigate to your profile (click your icon in the top right corner) and then your settings. Click "SSH and GPG keys" in the left navigation menu
+5. Click "New SSH key". Provide a name of your choice for the key (Eg. MacBookKey).
+6. Display the contents of your id_rsa.pub file by running cat ~/.ssh/id_rsa.pub in your terminal.Select all the contents of your id_rsa.pub file all the way through
+the end of the last line where your email is displayed and then copy/paste them into the key field. Make sure you copy the entire contents of the id_rsa.pub file. It should start with ssh-rsa and end with your email address.
+7. Click add key
 
 ## Guide:
 0. Complete Installation, Crash Course, and Linking Github to the Terminal in this order. (If you have worked with git on your laptop, you may have to do none/some of the steps)
@@ -57,9 +82,6 @@ If you have windows, you want to use the "powershell" application. If you use a 
 	2. Open the file in your file explorer with Sublime (or editor of your choice)
 	3. Write your name in the file!
 	4. Save and close the file
-	5. Open the errors.txt file
-	6. Change the statement to anything else: Ex. "This is a simple file with no errors right???: -> "Yep! No errors at all."
-	6. Save and close the file
 5. Upload your code to github
 	1. Type "git add -A". "-A" means all files
 	2. Type "git commit -m "type a message here"". -m means that you will attatch a message to associate your commit with. In this case, just type a generic message briefly describing what you will be uploading.
@@ -72,11 +94,7 @@ If you have windows, you want to use the "powershell" application. If you use a 
 	4. Confirm that the "base" branch is Master, and the branch to be "compared" is your new branch.
 	5. Title the pull request with your name Ex. Jenny's Pull Request. You can leave the comment section blank, or you can put some comment in it.
 8. NOTE: You can also add people in your team as reviewers to review the pull request in a real life situation!
-9. Fixe the merge conflict
-	1. The change you made to errors.txt doesn't align with the version in master.
-	2. Examine the conflict in the Github website and revert the file to match what is in master
-	3. Resolve and commit the changes
-10. Merge your PR:
+9. Merge your PR:
 	1. You can merge your branch into master. Find your PR on the PR page, and merge it into the master branch.
 	2. You will then be able to see your file on the master branch!
 	
