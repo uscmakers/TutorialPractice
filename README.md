@@ -56,10 +56,28 @@ Git uses SSH (Secure Shell protocol) keys to communicate with remote servers (se
 	ssh-keygen -t rsa -b 2048 -C "your_email@example.com"
 ```
 2. When prompted for a location to save the key, use whatever the default is by pressing enter
-3. After that, you will be prompted for a passphrase to secure your private key. We reccommend that you don't create a passphrase. Otherwise, you will have to type it in every time you wish to push to your remote repo. Press enter twice to continue wiht no passphrase.
+3. After that, you will be prompted for a passphrase to secure your private key. We reccommend that you don't create a passphrase. Otherwise, you will have to type it in every time you wish to push to your remote repo. Press enter twice to continue wiht no passphrase. Upon success, you should see the following:
+```
+	Your identification has been saved in /home/cs104/.ssh/id_rsa.
+Your public key has been saved in /home/cs104/.ssh/id_rsa.pub.
+The key fingerprint is:
+SHA256:vC+4OG2u1PIeE0OKX9jiFFHuLnkYCBSsvIW8ybD873H ttrojan@usc.edu
+The key's randomart image is:
++---[RSA 2048]----+
+|   ++o.          |
+|    S+.o *.*     |
+|   +.X. o        |
+|    0. o +       |
+|   ..o  E .      |
+|  .=S. . + .0    |
+| .*=* ...        |
+|.+.=o*. ..  *o*  |
+| .++*oo. ..      |
++----[SHA256]-----+
+```
 4. In your Git account (on the website) navigate to your profile (click your icon in the top right corner) and then your settings. Click "SSH and GPG keys" in the left navigation menu
 5. Click "New SSH key". Provide a name of your choice for the key (Eg. MacBookKey).
-6. Display the contents of your id_rsa.pub file by running cat ~/.ssh/id_rsa.pub in your terminal.Select all the contents of your id_rsa.pub file all the way through
+6. Display the contents of your id_rsa.pub file by running cat ~/.ssh/id_rsa.pub in your terminal. Select all the contents of your id_rsa.pub file all the way through
 the end of the last line where your email is displayed and then copy/paste them into the key field. Make sure you copy the entire contents of the id_rsa.pub file. It should start with ssh-rsa and end with your email address.
 7. Click add key
 
